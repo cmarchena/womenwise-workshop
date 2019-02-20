@@ -1,5 +1,7 @@
+/* Font is imported from Google */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+/* Containers */
 body {
     text-align: center;
     padding: 0;
@@ -11,58 +13,9 @@ body {
 
 }
 
-h1 {
-    font-size: 5em;
-    margin-bottom: 10px;
-
-}
-
-h2 {
-    font-size: 2em
-}
-
-.profile {
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-}
-
-.avatar {
-    border-radius: 50%;
-    width: 220px;
-    margin: 0 auto;
-    margin-bottom: 25px;
-    height: 100%;
-}
-
 main {
     max-width: 900px;
     margin: 0 auto
-}
-
-img {
-    width: 100%;
-    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.6);
-    object-position: center center;
-    object-fit: cover;
-    height: 350px;
-}
-
-td {
-    border: 1px solid white;
-    padding: 0.3em;
-}
-
-iframe {
-    width: 100%;
-    min-height: auto;
-}
-
-figure {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    height: 300px;
 }
 
 .hero {
@@ -77,12 +30,72 @@ figure {
     min-height: 410px;
 }
 
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3em;
+}
+
+/* Headlines */
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+
+}
+
+h2 {
+    font-size: 2em
+}
+
+/* Media */
+img {
+    width: 100%;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.6);
+    object-position: center center;
+    object-fit: cover;
+    height: 350px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    height: 100%;
+}
+
+figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 300px;
+}
+
+iframe {
+    width: 100%;
+    min-height: auto;
+}
+
+/* Table */
 table {
     min-width: 300px;
     width: auto;
     margin: 8px auto 0;
 }
 
+td {
+    border: 1px solid white;
+    padding: 0.3em;
+}
+
+/* UI */
 .btn {
     text-decoration: none;
     background-color: white;
@@ -92,6 +105,8 @@ table {
     margin: 0 auto;
     margin-bottom: 20px;
 }
+
+/* Form */
 
 form {
     display: flex;
@@ -116,12 +131,9 @@ input[type=submit] {
     font-size: 1em;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding: 3em;
-}
 
+
+/* Here we define how the webpage will look when the device width is over 400 pixels */
 @media screen and (min-width: 400px) {
     img {
         width: 100%;

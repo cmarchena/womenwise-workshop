@@ -9,7 +9,7 @@ To create a Tribute page for your favorite music artist!
 - [ ] Select your favorite artist
 - [ ] Gather the following data:
   - One picture
-  - Full name, title, catchphrase, birth name, birthday, nationality, hometown
+  - Full name, title, catchphrase, birth name, birthday, nationality, hometown, genres
   - One YouTube Video
   - Your picture
   - One social media profile
